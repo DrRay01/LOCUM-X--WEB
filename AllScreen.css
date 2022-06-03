@@ -1,0 +1,178 @@
+body{
+  
+    padding-right: 16px;
+    position: absolute;
+    width: 650px;
+    height: 741px;
+    left: 200px;
+    top: 200px;
+
+}
+.loginbox{
+  
+position: absolute;
+width: 539px;
+height: 741px;
+left: 100px;
+top: 202px;
+margin:auto;
+
+}
+
+.signupbox{
+  
+  position: absolute;
+  width: 539px;
+  height: 741px;
+  left: 186px;
+  top: 202px;
+  
+  }
+  
+  .profilesetup{
+    position: absolute;
+  width: 539px;
+  height: 741px;
+  left: 186px;
+  top: 202px;
+  }
+
+
+.centered {
+  position: absolute;
+  top: 100%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+   /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #E48700;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+  .row{position: absolute;
+      width: 400px;
+      height: 200px;
+      left: 700px;
+      top: 90px;       
+      padding: 10px 0;
+
+    
+    
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+
+  
+.text{
+  color:  #E48700;
+}
+
+.block{
+  float :left;
+  width: 20%;
+}
+
+.Pic1{
+  position: absolute;
+width: 753px;
+height: 891px;
+left: 653px;
+top: 129px;
+
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(portrait-successful-young-doctor-showing-thumbs-up.jpg);
+}
+
+.Id{
+  position: absolute;
+width: 639px;
+height: 835px;
+left: 800px;
+top: 145px;
+}
+
+nav .menu{
+  max-width: 1300px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  nav-left: auto;
+}
+
+.menu text{
+  text-decoration: none;
+  color:  #E48700;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.menu ul{
+  display: inline-flex;
+}
+.menu ul li{
+  list-style: none;
+  left:5px;
+  margin-left: 10px;
+}
+.menu ul li:first-child{
+  margin-left: 0px;
+}
+.menu ul li a{
+  text-decoration: none;
+  color:  #E48700;
+  font-size: 18px;
+  font-weight: 800;
+  padding: 15px 20px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  position:static;
+  top: 60px;       
+      
+  
+}
+.menu ul li a:hover{
+  background: none;
+}

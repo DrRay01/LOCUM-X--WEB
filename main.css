@@ -1,0 +1,266 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: white;
+    font-family: 'Poppins';
+}
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: white;
+    width: 100%;
+    z-index: 12;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 22vh;
+}
+.logo{
+    display: flex;
+}
+
+.logo-text{
+    position: absolute;
+    width: 100px;
+    height: 59px;
+    left: 144px;
+    top: 35px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 59px;
+    color: #DD9C1F;
+}
+.pages{
+    display: flex;
+    padding: 2em;
+}
+.pages>div{
+    padding-right: 6em;
+}
+.pages>div a{
+    text-decoration: none;
+    color: black;
+    font-weight: 650;
+    font-size: 1.28em;
+    line-height: 42px;
+    font-family: 'Poppins';
+}
+.pages>div a:hover{
+    transition: .5s;
+    color:#DD9C1F;
+}
+.ellipse{
+  width: 10px;
+  height: 10px;;
+}
+.main-text{
+  min-height: 90vh;
+  width: 100%;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3.6em;
+  line-height: 99px;
+  color: #827C7C;
+  background-image: url(Images/hero-pic.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.main-text>div{
+  position: absolute;
+  top: 3em;
+  left: 1.5em;
+}
+.offers{
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+}
+.block1{
+  display: flex;
+  justify-content: space-between;
+}
+.ellipse21{
+  width: 400px;
+  height: 400px;
+  padding-left: 8em;
+}
+
+.block2{
+  display: flex;
+  justify-content: space-between;
+}
+.ellipse20{
+  padding-top: 115px;
+}
+.ellipse22{
+  padding-top: 69px;
+}
+.service{
+  position: absolute;
+  top: 600px;
+  left: 200px;
+}
+.services{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-size: 1.5em;
+  grid-column-gap: 130px;
+  color: #827C7C;
+  padding-top: 3em;
+}
+.services>div{
+  text-align: center;
+}
+.services>div>div{
+  padding-top: .5em;
+}
+.services>div>div>h3{
+  color: black;
+}
+.services>div>div>div{
+  padding-bottom: .2em;
+}
+.heading{
+  font-size: 2.2em;
+}
+.content{
+  position: absolute;
+  top: 1200px;
+  left: 200px;
+}
+.grid{
+  margin-top: 2em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 90px;
+  grid-row-gap: 50px;
+  justify-content: space-between;
+}
+.grid>div{
+  border: solid whitesmoke;
+  border-radius: .9em;
+  padding: 1em;
+  padding-right: 6em;
+}
+.grid>div>div{
+  display: flex;
+  justify-content: space-evenly;
+}
+.grid>div>div>div>div{
+  padding: .5em;
+}
+.grid>div>div>div>div>h3{
+  padding-top: 1em ;
+  color: #DD9C1F;
+}
+.price{
+  color: #DD9C1F;
+  border-left: 2px solid #B3B3B3;
+  border-right: 2px solid #B3B3B3;
+}
+.below>div{
+  display: flex;
+}
+.search>div{
+  position: absolute;
+  top: 1970px;
+  left: 200px;
+  padding-bottom: 5em;
+}
+.heading1{
+  font-size: 2.2em;
+}
+.content1>div>input{
+  margin-top: 3em;
+  margin-left: 2em;
+  padding: 2em;
+  width: 800px;
+  height: 20px;
+  background-color: whitesmoke;
+  border: whitesmoke;
+  border-radius: .4em;
+  margin-bottom: 70px;
+}
+.content1>div>a{
+  margin-top: 50px;
+  margin-left: 400px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.3em;
+  border-radius: .2em;
+  padding: 7px;
+  padding-left: 45px;
+  padding-right: 45px;
+  background-color: #DD9C1F;
+}
+.content1>div>a:hover{
+  transition: .5s;
+  background-color: black;
+}
+.bottom{
+  margin-top: 150px;
+  padding: 4em;
+}
+.bottom>div{
+  background-color: rgba(217, 217, 217, 0.38);
+  padding-top: 4em;
+  padding-bottom: 2em;
+  border: .3em;
+}
+.bottom>div>div{
+  display: flex;
+  justify-content: space-evenly;
+}
+.linkk>div>a{
+  text-decoration: none;
+  color: black;
+  font-size: 1.28em;
+
+}
+footer{
+  margin-top: 1449px;
+  top: 2790px;
+  background-color: #FEA918;
+}
+.promo{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5em;
+  font-size: 1.5em;
+}
+h1{
+  margin-bottom: .2em;
+}
+.news>div{
+  padding-top: .21em;
+}
+.news>div>input{
+  border: none;
+  background-color: white;
+  border-radius: .4em;
+  padding: .7em;
+  padding-right: 1em;
+  padding-right: 12em;
+  margin-top: 2.3em;
+
+}
+.socials{
+  display: flex;
+  justify-content: space-between;
+}
+.text{
+  color: white;
+  text-align: center;
+  margin-top: 6em;
+  padding-bottom: 2em;
+}

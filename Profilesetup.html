@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Setup</title>
+</head>
+<link rel="stylesheet" type="text/css" href="AllScreen.css">
+<body>
+
+    <nav>
+        <div class="menu">
+            <div class="logo">
+                <img src="Pictures/Logo-desktop.png">
+            </div>
+          
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact us.html">Contact</a></li>
+          </ul>
+        </div>
+    </nav>
+    <div class="profilesetup">
+        <div class="Form">
+            <form action="action_page.php" method="post">      
+            <div class="container">
+        <h3>
+            <div>
+                <label><b>Username</b></label>
+                <input type="text" placeholder="Kindly enter your fullname">
+            </div>
+        
+            <div>
+         
+        </div>
+
+        
+            <div> 
+                <label><b>Location</b> </label>
+                <input type="text" placeholder ="Type in your address or choose on map">
+
+            </div>
+
+            <div>
+                <label><b>Profession</label></br>
+                <input type ="text" placeholder ="e.g. medical doctor">
+            </div>
+        
+            <div> 
+                
+                <label>Telephone Number</label> </br>    
+                <input type="tel" placeholder="+233 *** *****">
+            </div>
+            </br>
+            <diV>
+                <label> Experience</label>
+                <input type="text" placeholder="e.g 2Yrs 5m">
+            
+            </div>
+
+            <div>
+                <label> <h3>Bio</h3> </label>
+                <textarea name ="message" > </textarea> 
+            </div>
+        </h3>
+
+    </div>
+
+    
+    <div class="Id">
+        <label> ID Card </label>
+     </br>
+        <div>
+            <form action="upload.php" method="post" enctype="multipart/form-data">
+                
+                <input type="file" name='myfile'>
+                <br/>
+                <input type="submit" value="upload">
+            </form>
+        </div>
+
+
+        <div>
+            <label> Upload Resume & Certificates</label>
+            <form action="upload.php" method="post" enctype="multipart/form-data">
+                
+                <input type="file" name='myfile'>
+                <br/>
+                <input type="submit" value="upload">
+            </form>
+        </div>
+
+        <button type="submit">Save And Proceed</button>
+
+    </div>
+
+</body>
+</html>
